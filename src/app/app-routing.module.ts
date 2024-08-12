@@ -14,6 +14,14 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'user-list', component: UserListComponent },
   { path: 'user/:id', component: UserDetailComponent },
+  {
+    path: 'dashboard',
+    component: DashboardComponent,
+    children: [
+      { path: 'overview', component: OverviewComponent },
+      { path: 'stats', component: StatsComponent },
+    ],
+  },
 ];
 
 @NgModule({

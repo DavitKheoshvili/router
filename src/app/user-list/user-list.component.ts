@@ -10,7 +10,7 @@ export class UserListComponent {
   users = [
     {
       id: 1,
-      name: 'Dato',
+      name: 'Tengo',
       role: 'admin',
     },
     {
@@ -20,17 +20,17 @@ export class UserListComponent {
     },
     {
       id: 3,
-      name: 'Juzi',
+      name: 'Vaja',
       role: 'user',
     },
     {
       id: 4,
-      name: 'bachia',
+      name: 'Rezo',
       role: 'admin',
     },
     {
       id: 5,
-      name: 'Dato',
+      name: 'Tea',
       role: 'user',
     },
   ];
